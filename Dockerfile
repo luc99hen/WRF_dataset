@@ -4,4 +4,4 @@ WORKDIR /wrf
 
 ADD . /wrf
 
-CMD ["/wrf/run_case.sh"]
+ENTRYPOINT [ "/wrf/run_case.sh" ]

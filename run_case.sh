@@ -35,5 +35,5 @@ mv wrfout* $HOST_PATH/WRF_Output/"${start_month}_${start_day}"
 
 # process output
 cd $HOST_PATH
-python3 process_out.py
+/usr/bin/python3 process_out.py
 rm -rf $HOST_PATH/WRF_Output/"${start_month}_${start_day}"
