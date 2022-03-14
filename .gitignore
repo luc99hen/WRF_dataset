@@ -1,0 +1,7 @@
+Dataset/*
+WPS_Output/*
+WRF_Output/*
+
+!Dataset/.gitkeep
+!WPS_Output/.gitkeep
+!WRF_Output/.gitkeep
