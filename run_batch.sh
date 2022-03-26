@@ -1,7 +1,7 @@
 #!/bin/bash
 
-start=2021-01-08
-end=2021-01-09
+start=2021-01-10
+end=2021-01-31
 while ! [[ "$start" > "$end" ]]; do
     next=$(date -d "$start + 1 day" +%F)
     start_month=$(echo $start | cut -d'-' -f2)

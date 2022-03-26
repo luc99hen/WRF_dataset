@@ -13,10 +13,10 @@ print(START_M, START_D, END_M, END_D)
 
 # %%
 ij_in_fields = [
-    "I_O3",
-    "I_QC",
-    "I_QI",
-    "I_QS",
+    # "I_O3",
+    # "I_QC",
+    # "I_QI",
+    # "I_QS",
     "I_COSZEN",
     "I_ALBEDO",
     "I_TSFC",
@@ -29,8 +29,8 @@ ij_in_fields = [
 ij_out_fields = [
     "O_SWUPT",
     "O_SWUPTC",
-    "O_SWDNT",
-    "O_SWDNTC",
+    # "O_SWDNT",
+    # "O_SWDNTC",
     "O_SWUPB",
     "O_SWUPBC",
     "O_SWDNB",
@@ -39,8 +39,8 @@ ij_out_fields = [
     "O_LWUPTC",
     "O_LWUPB",
     "O_LWUPBC",
-    "O_LWDNT",
-    "O_LWDNTC",
+    # "O_LWDNT",  
+    # "O_LWDNTC",
     "O_LWDNB",
     "O_LWDNBC",
 ]
